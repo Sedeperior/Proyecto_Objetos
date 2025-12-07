@@ -1,0 +1,10 @@
+Favor de revaluar los siguientes puntos:
+.-Diseño de clases sencillas completas
+.-Modelo de un diagrama de clase útil
+.-Utiliza el concepto de Herencia en el diagrama de clases de forma adecuada
+.-Utiliza el concepto de Composición o Agregación en el diagrama de clases de forma adecuada
+.-Implementa las clases en C++ siguiendo el diseño del diagrama de clases en UML
+.-Implementa Composición o Agregación siguiendo el diagrama de clases
+.-Implementa clases apegadas a requerimientos a partir de un modelo
+.-Sigue estándares en todo el código fuente
+.-Cumple estándares en el ReadMe

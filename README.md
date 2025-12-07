@@ -28,7 +28,7 @@ El programa se compone de las siguientes clases:
 .-Asistencia (Hereda de):
   °Física
   °Matemáticas
-  °Programación
+  °Programación 
 .-Responsable de:
   °Solicitar matrícula
   °Buscar alumno

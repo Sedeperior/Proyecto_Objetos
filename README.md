@@ -74,10 +74,11 @@ Después de descargar todos los archivos y ponerlos en una carpeta, copie la dir
 cd "dirección completa de la carpeta"
 4.-Compilar TODOS los archivos .cpp
 Ejecuta el siguiente comando:
-g++ Alumno.cpp Curso.cpp Fisica.cpp main.cpp Matematicas.cpp Padre.cpp Programacion.cpp -o main
+g++ Asistencia.cpp Personas.cpp Fisica.cpp Main.cpp Matematicas.cpp  Programacion.cpp -o main
 Este comando:
 •	Compila todos los archivos .cpp
 •	Enlaza todas las clases
 •	Genera un ejecutable llamado main
+Recuerda ejecutar desde la terminal 
 
 ===============================================================================

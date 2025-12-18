@@ -42,10 +42,42 @@ El programa se compone de las siguientes clases:
   .-Modificar los datos 
 ===============================================================================
 -----Cómo compilar-----
-1.-El proyecto usa características básicas de C++ y se compila con -std=c++17. 
-Coloca todos los archivos .cpp y .h en la misma carpeta antes de compilar.
-2.-Utiliza el compilador: g++
-3.-Abre la terminal en la carpeta del proyecto y 
-ejecuta uno de estos comandos según tu sistema
-4.-Ejecuta el programa
+El proyecto está desarrollado en C++ y se compone de varios archivos .cpp y .h.
+El programa principal se encuentra en Main.cpp y depende de varias clases auxiliares.
+Asegúrate de que todos los archivos estén en la misma carpeta:
+•	Main.cpp
+•	Personas.h
+•	Personas.cpp
+•	Asistencia.h
+•	Asistencia.cpp
+•	Fisica.h
+•	Fisica.cpp
+•	Matematicas.h
+•	Matematicas.cpp
+•	Programacion.h
+•	Programacion.cpp
+Se necesita:
+•	Sistema operativo Linux (o similar)
+•	Compilador g++
+•	Terminal o consola
+Para verificar que tienes g++ instalado usa g++ --version
+Recuerda que en C++:
+•	Cada archivo .cpp se compila por separado
+•	El ejecutable final se crea enlazando todos los .cpp juntos
+No es suficiente compilar solo Main.cpp, porque las funciones que usa están definidas en otros archivos.
+Para compilar:
+1.-Abrir la terminal
+Ubícate en la carpeta donde están todos los archivos del proyecto:
+cd ruta/al/proyecto
+2.-Si quiere compilarlo en cmd
+Después de descargar todos los archivos y ponerlos en una carpeta, copie la dirección completa de la ubicación de la carpeta y entonces ponga el siguiente comando:
+cd "dirección completa de la carpeta"
+4.-Compilar TODOS los archivos .cpp
+Ejecuta el siguiente comando:
+g++ Alumno.cpp Curso.cpp Fisica.cpp main.cpp Matematicas.cpp Padre.cpp Programacion.cpp -o main
+Este comando:
+•	Compila todos los archivos .cpp
+•	Enlaza todas las clases
+•	Genera un ejecutable llamado main
+
 ===============================================================================
